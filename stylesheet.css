@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Parkinsans-bold";
+    src: 
+    url("fonts/Parkinsans-Bold.ttf") format("TrueType");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Parkinsans-Medium";
+    src: 
+    url("fonts/Parkinsans-Medium.ttf") format("TrueType");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Parkinsans-Regular";
+    src: 
+    url("fonts/Parkinsans-Regular.ttf") format("TrueType");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+    url("fonts/Inter-VariableFont_opsz,wght.ttf") format("TrueType");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+body {
+    
+/* white */
+    --background-color: #F6F5F5;
+    --text-color-white: #F6F5F5;
+    --accent-color-white: #F6F5F5;
+
+
+/* black */
+    --text-color-black: #212121;
+    --accent-color-black: #212121;
+
+/* gray */
+    --text-color-gray: #EAEAEA;
+    --accent-color-gray: #EAEAEA;
+
+/* pink */
+    --accent-color-pink: #882B7D;
+
+/* blue */
+    --accent-color-blue: #086387;
+
+    
+
+  /*font-size*/
+    --heading1: 1.8em;
+    --heading2: 1.2em;
+    --heading4: .75em;
+    --heading5: .6em;
+    --body-text-paragraph: 1em;
+    --button-text: .7em;
+    --text-bold: bold ;
+
+    /* font-families */
+    --font-default: "Inter", sans-serif;
+    --font-regular: "Parkinsans-Regular" sans-serif;
+    --font-medium: "Parkinsans-Medium" sans-serif;
+    --font-bold: "Parkinsans-bold" sans-serif;
+
+    
+
+    /* decoration */
+    --rounded: 1em;
+    --border: 2px;
+
+}
