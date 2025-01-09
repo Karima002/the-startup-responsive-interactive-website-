@@ -50,6 +50,9 @@ h1 {
     padding: 1em;
     background-color: var(--button-color-gray);
     border-radius: 7.44px;
+    &:hover {
+        background-color: var(--accent-color-blue);
+    }
 }
 
 [type="button"]{
