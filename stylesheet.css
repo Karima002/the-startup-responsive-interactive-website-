@@ -36,6 +36,8 @@
   }
 
 body {
+
+
     
 /* white */
     --background-color: #F6F5F5;
@@ -50,6 +52,7 @@ body {
 /* gray */
     --text-color-gray: #EAEAEA;
     --accent-color-gray: #EAEAEA;
+    --button-color-gray: #EDEDED;
 
 /* pink */
     --accent-color-pink: #882B7D;
@@ -60,13 +63,13 @@ body {
     
 
   /*font-size*/
-    --heading1: 1.8em;
-    --heading2: 1.2em;
-    --heading4: .75em;
-    --heading5: .6em;
-    --body-text-paragraph: 1em;
-    --button-text: .7em;
-    --text-bold: bold ;
+    --font-size1:: 1.8em; /*28.8px*/
+    --font-size2: 1.2em; /*19.2px*/
+    --font-size3: 1.11625em; /*17.86px*/
+    --font-size4: .75em; /*12px*/
+    --font-size5:: .6em; /*9.6px*/
+    --body-text-paragraph: 1em; /*16px*/
+    --button-text: .7em; /*11.2px*/
 
     /* font-families */
     --font-default: "Inter", sans-serif;
