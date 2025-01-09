@@ -63,13 +63,12 @@ body {
     
 
   /*font-size*/
-    --font-size1:: 1.8em; /*28.8px*/
-    --font-size2: 1.2em; /*19.2px*/
-    --font-size3: 1.11625em; /*17.86px*/
-    --font-size4: .75em; /*12px*/
-    --font-size5:: .6em; /*9.6px*/
-    --body-text-paragraph: 1em; /*16px*/
-    --button-text: .7em; /*11.2px*/
+    --font-size-xl:: 1.8em; /*28.8px*/
+    --font-size-l: 1.2em; /*19.2px*/
+    --font-size-m: 1.11625em; /*17.86px*/
+    --font-size-s: .75em; /*12px*/
+    --font-size-xs: 1em; /*16px*/
+    --font-size-xxs:: .6em; /*9.6px*/
 
     /* font-families */
     --font-default: "Inter", sans-serif;
@@ -78,9 +77,5 @@ body {
     --font-bold: "Parkinsans-bold" sans-serif;
 
     
-
-    /* decoration */
-    --rounded: 1em;
-    --border: 2px;
 
 }

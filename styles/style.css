@@ -33,7 +33,7 @@ button {
 h1 {
     flex-wrap: wrap;
     font-family: var(--font-default);
-    font-size: var(--font-size2);
+    font-size: var(--font-size-l);
     padding-left: 1em;
 }
 
@@ -46,7 +46,7 @@ h1 {
 
 .profile-name {
     font-family: var(--font-default);
-    font-size: var(--font-size3);
+    font-size: var(--font-size-m);
     padding: 1em;
     background-color: var(--button-color-gray);
     border-radius: 7.44px;
@@ -93,7 +93,7 @@ footer {
 
 a {
     font-family: var(--font-default);
-    font-size: var(--font-size-footer);
+    font-size: var(--font-size-s);
     display: flex;
     flex-direction: column;
     text-decoration: none;
