@@ -67,7 +67,6 @@ h1 {
     padding-top: 1em; /* Verwijdert de standaard padding van de <ul> */
     list-style-type: none; /* Verwijdert de standaard opsommingstekens */
     display: flex; /* Maakt de <ul> een flex-container */
-    gap: 1em; /* Ruimte tussen de items */
     overflow-x: auto; /* Maakt horizontaal scrollen mogelijk */
     scroll-snap-type: x mandatory; /* Zet automatisch centreren bij scrollen aan op de x-as: als je scrolt komt de meest dichtsbijzijnde foto op de focus */
 	overscroll-behavior-x: contain;  /* Beperkt het horizontale scrollgedrag: vermijdt het swipen naar een andere pagina  */
@@ -87,6 +86,12 @@ h2 {
 h3 {
     font-family: var(--font-default);
 }
+
+p {
+    font-family: var(--font-default);
+}
+
+
 
 /* MARK: FOOTER */
 
