@@ -63,7 +63,7 @@ h1 {
     padding:.75em .75em .75em 2.5em; /*2.5em als padding is door de de breedte van de afbeelding van 2em op te tellen met de position van de background (.25em) vanaf 2.5 begint de tekst. */
 }
 
-article {
+.section-cadeaus {
     padding-top: 1em; /* Verwijdert de standaard padding van de <ul> */
     list-style-type: none; /* Verwijdert de standaard opsommingstekens */
     display: flex; /* Maakt de <ul> een flex-container */
@@ -97,6 +97,7 @@ footer {
 li {
     list-style: none;
 }
+
 a {
     font-family: var(--font-default);
     font-size: var(--font-size-s);
