@@ -94,6 +94,9 @@ footer {
     padding: 1em 0 0 1em;
 }
 
+li {
+    list-style: none;
+}
 a {
     font-family: var(--font-default);
     font-size: var(--font-size-s);
