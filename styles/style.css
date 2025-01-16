@@ -105,6 +105,24 @@ p {
     right: .4em;
     cursor: pointer;
 }
+
+.zoeken.toonSearch {
+    translate: 0% 0%;
+}
+
+
+.zoeken {
+    transition: translate 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    top:0;
+    bottom:0;
+    width: 100%;
+    background: var(--text-color-gray);
+    translate: 0% 100%; /*Search scherm komt tevoorschijn van bovenaan naar beneden*/
+}
+
 /* MARK: FOOTER */
 
 footer {
