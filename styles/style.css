@@ -21,8 +21,9 @@ button {
     padding: 1em 0 2em 1.5em;
 }
 
-.save-button{
-    padding: 2.7em 0 0 0;
+
+.saved-list {
+    padding-top: 2.7em;
 }
 
 .visit--profile-button {
@@ -30,18 +31,21 @@ button {
 }
 
 /* MARK: MAIN */
+main {
+    padding: 3em 1.1em 3em 1em;
+}
+
 h1 {
     flex-wrap: wrap;
     font-family: var(--font-default);
     font-size: var(--font-size-l);
-    padding-left: 1em;
 }
 
 .profile {
     display: flex;
     justify-content: flex-start;
     gap: 1em;
-    padding: 1em 1em 0 1em;
+    padding: 1em 1em 0 0;
 }
 
 .profile-name {
@@ -71,28 +75,36 @@ h1 {
     scroll-snap-type: x mandatory; /* Zet automatisch centreren bij scrollen aan op de x-as: als je scrolt komt de meest dichtsbijzijnde foto op de focus */
 	overscroll-behavior-x: contain;  /* Beperkt het horizontale scrollgedrag: vermijdt het swipen naar een andere pagina  */
     width: 100%; /* Zet de breedte van de <ul> op 100% */
+    gap: 1em;
 }
 
 h2 {
     font-family: var(--font-default);
     font-weight: 300;
-    padding: 2em 0 0 .8em;
+    padding: 2em 0 0 ;
     }
 
 .carousel-one {
-   padding: 1em;
+    position: relative;
 }
 
-h3 {
-    font-family: var(--font-default);
+.save-button{
+    position: absolute;
+    top: 1em;
+    right: 1.2em;
 }
+
 
 p {
     font-family: var(--font-default);
 }
 
-
-
+.chat-button {
+    position: fixed;
+    bottom: -.5em;
+    right: .4em;
+    cursor: pointer;
+}
 /* MARK: FOOTER */
 
 footer {
