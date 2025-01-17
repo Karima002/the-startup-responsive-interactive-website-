@@ -30,15 +30,7 @@
     font-style: normal;
 }
 
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-
-body {
-
-
-    
+body {    
 /* white */
     --background-color: #F6F5F5;
     --text-color-white: #F6F5F5;
