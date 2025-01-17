@@ -112,15 +112,14 @@ p {
 
 
 .zoeken {
-    transition: translate 1s;
+    transition: translate 2s;
     position: fixed;
-    top: 0;
+    top: 20em;
     left: 0;
-    top:0;
     bottom:0;
     width: 100%;
     background: var(--text-color-gray);
-    translate: 0% 100%; /*Search scherm komt tevoorschijn van bovenaan naar beneden*/
+    translate: 0% 100%; /*Search scherm komt tevoorschijn van onderaan naar boven*/
 }
 
 /* MARK: FOOTER */
