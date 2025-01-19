@@ -6,6 +6,8 @@
     <title>Milledoni</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="styles/style.css">
+
+    
 </head>
 <body>
     <header>
@@ -437,5 +439,48 @@
     </footer>
 
     <script src="scripts/index.js"></script>
+<!-- 
+    <button id="chat-button" onclick="toggleChat()">Open Chat</button>
+
+    <script>
+        (function(w,d,s,o,f,js,fjs) {
+        w['MilledoniChatWidget']=o;w[o] = w[o] || function() { (w[o].q = w[o].q || []).push(arguments) };
+        js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+        js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'mc', 'https://app.milledoni.com/embed.js'));
+    </script>
+
+    <style>       
+        
+        #milledoni-chat {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 400px;
+        z-index: 1000;
+        }
+    </style>
+   
+    <script>
+        function toggleChat() {
+        let chatDiv = document.getElementById('milledoni-chat');
+        if (chatDiv) {
+        chatDiv.remove();
+        document.getElementById('chat-button').textContent = 'Open Chat';
+        } else {
+        chatDiv = document.createElement('div');
+        chatDiv.id = 'milledoni-chat';
+        document.body.appendChild(chatDiv);
+        
+        window.MilledoniChat.init('milledoni-chat', {
+        domain: 'https://app.milledoni.com',
+        theme: 'light',
+        language: 'nl',
+        height: '700px'
+        });
+        document.getElementById('chat-button').textContent = 'Sluit Chat';
+        }
+        }
+    </script> -->
 </body>
 </html>
