@@ -1,0 +1,51 @@
+/* MARK: Header */
+
+
+button {
+    all: unset; /*Verwijdert de standaard styling van de button*/
+    cursor: pointer;
+}
+
+h1 {
+    flex-wrap: wrap;
+    font-family: var(--font-default);
+    font-size: var(--font-size-l);
+}
+
+/* MARK: Main */
+main {
+    padding: 3em 1.1em 3em 1em;
+    @media (min-width: 40em) {
+        grid-column: 2/3;   
+    }
+}
+
+.section-cadeaus {
+    padding-top: 1em; /* Verwijdert de standaard padding van de <ul> */
+    list-style-type: none; /* Verwijdert de standaard opsommingstekens */
+    display: flex; /* Maakt de <ul> een flex-container */
+    overflow-x: auto; /* Maakt horizontaal scrollen mogelijk */
+    scroll-snap-type: x mandatory; /* Zet automatisch centreren bij scrollen aan op de x-as: als je scrolt komt de meest dichtsbijzijnde foto op de focus */
+	overscroll-behavior-x: contain;  /* Beperkt het horizontale scrollgedrag: vermijdt het swipen naar een andere pagina  */
+    width: 100%; /* Zet de breedte van de <ul> op 100% */
+    gap: 1em;
+}
+
+.section-cadeaus::-webkit-scrollbar {
+    display: none; /*Verwijdert de scrollbar*/
+}
+
+
+.carousel-one {
+    position: relative;
+}
+
+.save-button{
+    position: absolute;
+    top: 1em;
+    right: 1.2em;
+}
+
+p {
+    font-family: var(--font-default);
+}
