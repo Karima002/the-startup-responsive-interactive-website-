@@ -1,16 +1,18 @@
 /* MARK: Header */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
 
 button {
     all: unset; /*Verwijdert de standaard styling van de button*/
     cursor: pointer;
 }
 
-h1 {
-    flex-wrap: wrap;
-    font-family: var(--font-default);
-    font-size: var(--font-size-l);
-}
+
+
 
 /* MARK: Main */
 main {
@@ -18,6 +20,11 @@ main {
     @media (min-width: 40em) {
         grid-column: 2/3;   
     }
+}
+
+.section-explenation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .section-cadeaus {
@@ -48,4 +55,53 @@ main {
 
 p {
     font-family: var(--font-default);
+}
+
+
+.chat-button {
+    display: block;
+    position: fixed;
+    bottom: -.5em;
+    right: .4em;
+    cursor: pointer;
+    @media (min-width: 40em) {
+        display: none;
+    }
+}
+
+
+/* MARK: VIEW TRANSITION*/
+
+@view-transition{ /*hiermee wordt de @viewtransitie geactiveerd: https://developer.chrome.com/docs/web-platform/view-transitions*/
+    navigation: auto;
+}
+
+@keyframes move-out {
+    0% {
+        transform: translateX(0%);
+    }
+    30% {
+        transform: translateX(-30%)
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes move-in {
+    0% {
+        transform: translateX(100%);
+    }
+    30% {
+        transform: translateX(30%)
+    }
+    50% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
