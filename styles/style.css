@@ -121,10 +121,18 @@ h2 {
     position: absolute;
     top: 1em;
     right: 1.2em;
+    &:hover{
+            transform: translateY(-6px);
+        }
 }
+
 
 p {
     font-family: var(--font-default);
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 .chat-button {
@@ -217,6 +225,28 @@ p {
     color: var(--accent-color-black);
 }
 
+.pop-up {
+    display: none;
+    position: fixed;
+    background-color: var(--accent-color-blue);
+    border: .2em solid var(--accent-color-blue);
+    border-radius: 1em;
+    text-align: center;
+    transform: translateX(-50%);
+    height: 1.8em;
+    top: 1em;
+    left: 55%;
+    padding: 1em;
+}
+
+
+.show {
+    display: block;
+    gap: 1em;
+    align-self: center;
+    /* De pop-up wordt zichtbaar */
+    animation: bounceInUp 1s ease-out forwards;
+}
 /* MARK: FOOTER */
 
 footer {
@@ -278,6 +308,9 @@ a {
     text-decoration: none;
     color:var(--black);
     line-height: 1.5em;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 /* MARK: VIEW TRANSITION*/
