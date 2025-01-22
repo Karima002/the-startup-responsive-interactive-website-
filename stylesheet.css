@@ -65,9 +65,9 @@ body {
 
     /* font-families */
     --font-default: "Inter", sans-serif;
-    --font-regular: "Parkinsans-Regular" sans-serif;
-    --font-medium: "Parkinsans-Medium" sans-serif;
-    --font-bold: "Parkinsans-bold" sans-serif;
+    --font-regular: "Parkinsans-Regular", sans-serif;
+    --font-medium: "Parkinsans-Medium", sans-serif;
+    --font-bold: "Parkinsans-bold", sans-serif;
 
     
 

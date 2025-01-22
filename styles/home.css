@@ -23,8 +23,20 @@ main {
 }
 
 .section-explenation {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.display {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: .5fr;
+    grid-template-rows: 1fr .5fr;
+    gap: 1em;
+}
+
+.explenation-text {
+    grid-row: 2/3;
 }
 
 .section-cadeaus {
