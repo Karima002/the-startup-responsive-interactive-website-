@@ -1,9 +1,38 @@
-Ontwerp en maak een responsive website voor een startup.
+# Milledoni
 
-De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
+## Inleiding
+### Over Milledoni
+[Milledoni]([URL](https://milledoni.nl/)) Het idee van Milledoni is ontstaan uit de passie voor cadeaus. In Nederland is het kopen van een cadeau meer een last, terwijl het in andere landen een teken van liefde is. Milledoni is een platform voor mensen die echt willen nadenken over welk cadeau ze willen halen. De naam is ontstaan omdat het in het Italiaans duizend cadeau’s betekent.
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+### Probleem
+De website in zijn algeheel was verouderd. De layout paste niet bij hetgeen de ondernemer voor ogen ziet voor Milledoni.
+
+
+### Oplossing
+De nieuwe Milledoni is gebaseerd op AI. Er zal een zoekfunctie komen dat leidt tot een chat met AI. Uit die chat zullen resultaten uitkomen voor cadeau ideeën gebaseerd op de persoon aan wie het cadeau gegeven wordt.
+
+Link naar de [live website](https://karima002.github.io/the-startup-responsive-interactive-website-/)
+
+
+## Beschrijving
+
+### Mobile first
+De website is gebouwd vanuit het mobile first principe. Het mobile-first principe is een manier voor webdesign waarbij het ontwerp begint met de kleinste schermen (zoals smartphones) en vervolgens wordt opgeschaald naar grotere schermformaten (zoals tablets en desktops). Daarbij begin je met het bouwen van een HTML prototype waarbij je de volledige website bouwt met alleen HTML.
+![image](https://github.com/user-attachments/assets/b3bc2bb8-851d-4011-af0f-2dfab359a60d)
+
+Vanuit mijn HTML prototype heb ik de huisstijl toegepast met CSS. Vervolgens ben ik aan de slag gegaan met het bepalen van verschillende breakpoints om mijn website responsive te maken. De pagina bestaat uit 4 typen layouts: s, m, l, xl.
+![image](https://github.com/user-attachments/assets/e89b94e0-299f-408a-a840-ad786e01e5af)
+
+Wanneer de breakpoint zijn bepaald, media queries zijn gebruikt voor de responsiveness en de huisstijl is toegepast in CSS ziet de website er als volgt uit:
+https://github.com/user-attachments/assets/bd040f68-c6f1-44e4-8c95-a552b969fc45
+
+### Ontwerpkeuzes
+
+#### Interactie Chat
+
+
+#### Interactie pop-up
+
 
 ## Ademruimte en inspringen
 Voor het inspringen van code gebruik ik een vast aantal spaties. Als er een element hoort bij een vorig element wordt dat element ingesprongen.
