@@ -247,6 +247,12 @@ p {
     /* De pop-up wordt zichtbaar */
     animation: bounceInUp 1s ease-out forwards;
 }
+
+.close-chat {
+    @media (min-width:40em) {
+        display: none;
+    }
+}
 /* MARK: FOOTER */
 
 footer {
