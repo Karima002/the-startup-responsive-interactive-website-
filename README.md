@@ -53,6 +53,22 @@ Door verschillende effecten te creeren wanneer de gebruiker hovert krijgt de geb
 
 https://github.com/user-attachments/assets/4ea6e2ff-99cb-41a9-a875-ecda35ef1ff2
 
+## Kenmerken
+
+### [HTML](https://github.com/Karima002/the-startup-responsive-interactive-website-/blob/main/index.html)
+De HTML is opgebouwd uit een header, main en footer. De main bevat verschillende sections met daarin verschillende articles (cadeau's). 
+https://github.com/Karima002/the-startup-responsive-interactive-website-/blob/acec8cc152bd9e3071b1c4307981ed9b0ec8e974/index.html#L193-L208
+
+### [CSS](https://github.com/Karima002/the-startup-responsive-interactive-website-/blob/main/styles/style.css#L36-L44)
+Ik ben te werk gegaan met twee verschillende stylesheets. De eerste stylesheet bevat custum properties die ik heb gebruikt in mijn andere stylesheet. 
+https://github.com/Karima002/the-startup-responsive-interactive-website-/blob/acec8cc152bd9e3071b1c4307981ed9b0ec8e974/stylesheet.css#L33-L37
+
+In mijn andere stylesheet heb ik gebruik gemaaakt van nesting. Media queries nest ik in de CSS property die erbij hoort. 
+https://github.com/Karima002/the-startup-responsive-interactive-website-/blob/acec8cc152bd9e3071b1c4307981ed9b0ec8e974/styles/style.css#L36-L44
+
+### [Javascript](https://github.com/Karima002/the-startup-responsive-interactive-website-/blob/main/scripts/index.js)
+Met javascript heb ik onder andere de pop-up geprogrameerd. Zo komt de pop-up tevoorschijn bij het klikken van de opslaan button en verdwijnt de pop-up na 3 seconden.
+https://github.com/Karima002/the-startup-responsive-interactive-website-/blob/acec8cc152bd9e3071b1c4307981ed9b0ec8e974/scripts/index.js#L23-L40
 
 
 ## Ademruimte en inspringen
