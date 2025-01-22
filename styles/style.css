@@ -249,6 +249,10 @@ p {
 }
 
 .close-chat {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    display: block;
     @media (min-width:40em) {
         display: none;
     }
