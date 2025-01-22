@@ -35,8 +35,8 @@ function toonPopUp() {
     popUpList.classList.add('show'); 
 
     setTimeout(function() {
-        popUpList.classList.remove('show'); //zorgt ervoor dat de class 'show' automatich verdwijnt na 5 sec (5000 milliseconden)
-    }, 1000);
+        popUpList.classList.remove('show'); //zorgt ervoor dat de class 'show' automatich verdwijnt na 3 sec (5000 milliseconden)
+    }, 3000);
 }
 
 

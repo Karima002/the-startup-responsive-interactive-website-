@@ -1,10 +1,5 @@
-/* MARK: Header */
 
-header {
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
-}
+/* MARK: Header */
 
 button {
     all: unset; /*Verwijdert de standaard styling van de button*/
@@ -12,21 +7,52 @@ button {
 }
 
 
+.profile-overview {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 /* MARK: Main */
 main {
-    padding: 3em 1.1em 3em 1em;
+    padding: 0 1.1em 3em 1em;
     @media (min-width: 40em) {
         grid-column: 2/3;   
     }
 }
 
+.logo-heading {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-milledoni {
+    grid-row: 1/2;
+    margin-left: 4em;
+
+
+}
+
+h1 {
+    font-family: var(--font-default);
+    grid-row: 2/3;
+
+}
 .section-explenation {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    text-align: center;
+    gap: 2em;
 }
+
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 .display {
     display: grid;
@@ -71,16 +97,12 @@ p {
 
 
 .chat-button {
-    display: block;
     position: fixed;
-    bottom: -.5em;
     right: .4em;
+    bottom: -.5em;
     cursor: pointer;
-    @media (min-width: 40em) {
-        display: none;
-    }
+   
 }
-
 
 /* MARK: VIEW TRANSITION*/
 
