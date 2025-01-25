@@ -103,9 +103,7 @@ h1 {
     gap: 1em;
 }
 
-img:focus {
-    outline: green;
-}
+
 .section-cadeaus::-webkit-scrollbar {
     display: none; /*Verwijdert de scrollbar*/
 }
@@ -315,12 +313,12 @@ li {
 
 a {
     font-family: var(--font-default);
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-xs);
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color:var(--black);
-    line-height: 1.5em;
+    line-height: 2em;
     &:hover{
         text-decoration: underline;
     }
