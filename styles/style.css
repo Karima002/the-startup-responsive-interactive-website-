@@ -175,7 +175,7 @@ p {
 }
 
 .chat-text {
-    color: var(--text-color-accent);
+    color: var(--text-color-black);
     position: absolute;
     top: 1em;
     left: 1em;
