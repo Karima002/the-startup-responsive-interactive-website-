@@ -103,10 +103,13 @@ h1 {
     gap: 1em;
 }
 
+img:focus {
+    outline: green;
+}
 .section-cadeaus::-webkit-scrollbar {
     display: none; /*Verwijdert de scrollbar*/
 }
-
+            
 h2 {
     font-family: var(--font-default);
     font-weight: 300;
