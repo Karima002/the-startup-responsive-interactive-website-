@@ -43,7 +43,7 @@ Het ontwerp heb ik veranderd door feedforward toe te passen:
 
 
 #### Interactie pop-up
-Uit de user test kwam bij alle gebruikers een handeling naar voren: de tester probeerde een cadeau op te slaan maar er gebeurde niks. Dit heb ik opgelost door een pop up te laten verschijnen bij het klikken op de opslaan-button. De gebruiker krijgt een pop up te zien dat de cadeau is opgeslagen in zijn wishlist (feedback). De popup verdwijnt na 3 seconden.
+Uit de user test kwam bij alle gebruikers een handeling naar voren: de tester probeerde een cadeau op te slaan maar er gebeurde niks. Dit heb ik opgelost door een pop up te laten verschijnen bij het klikken op de opslaan-button. Bij een hover beweegt de opslaan-button een aantal pixel omhoog op de y-as (feedback). De gebruiker krijgt daarna een pop up te zien dat de cadeau is opgeslagen in zijn wishlist (feedback). De popup verdwijnt na 3 seconden.
 
 https://github.com/user-attachments/assets/6288d26d-bb5c-4027-b114-90dd767bbb77
 
