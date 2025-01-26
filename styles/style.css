@@ -22,10 +22,6 @@ header {
 
 }
 
-button {
-    all: unset; /*Verwijdert de standaard styling van de button*/
-    cursor: pointer;
-}
 
 .logo-link {
     flex-grow: 4;
@@ -60,11 +56,6 @@ main {
     }
 }
 
-h1 {
-    flex-wrap: wrap;
-    font-family: var(--font-default);
-    font-size: var(--font-size-l);
-}
 
 .profile {
     display: flex;
@@ -108,32 +99,13 @@ h1 {
     display: none; /*Verwijdert de scrollbar*/
 }
             
-h2 {
-    font-family: var(--font-default);
-    font-weight: 300;
-    padding: 2em 0 0 ;
-    }
 
 .carousel-one {
     position: relative;
 }
 
-.save-button{
-    position: absolute;
-    top: 1em;
-    right: 1.2em;
-    &:hover{
-            transform: translateY(-6px);
-        }
-}
+h2 {
 
-
-p {
-    font-family: var(--font-default);
-    cursor: pointer;
-    &:hover{
-        text-decoration: underline;
-    }
 }
 
 .chat-button {
@@ -183,6 +155,10 @@ p {
     @media (min-width: 40em) {
         display: none;
     }
+}
+
+img:focus {
+    outline: blue 2em;
 }
 
 
@@ -238,6 +214,10 @@ p {
     top: 1em;
     left: 55%;
     padding: 1em;
+    @media (min-width: 40em){
+        left: 45%;
+
+    }
 }
 
 
@@ -261,7 +241,7 @@ p {
 /* MARK: FOOTER */
 
 footer {
-    padding: 1em 0 0 1em;
+    padding: 1em 0 0 0;
     @media (min-width: 40em) {
         grid-column: 2/3;   
         
@@ -277,7 +257,7 @@ nav {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        gap: 5em;
+        gap: 2em;
    } 
 }
 
@@ -307,22 +287,7 @@ nav {
     grid-column: 2/3;
 }
 
-li {
-    list-style: none;
-}
 
-a {
-    font-family: var(--font-default);
-    font-size: var(--font-size-xs);
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color:var(--black);
-    line-height: 2em;
-    &:hover{
-        text-decoration: underline;
-    }
-}
 
 /* MARK: VIEW TRANSITION*/
 

@@ -69,6 +69,68 @@ body {
     --font-medium: "Parkinsans-Medium", sans-serif;
     --font-bold: "Parkinsans-bold", sans-serif;
 
-    
+}
+
+/* Headings & paragraven */
+
+ h1 {
+    font-family: var(--font-default);
+    font-size: var(--font-size-l);
+    flex-wrap: wrap;
 
 }
+
+h2 {
+    font-family: var(--font-default);
+    font-weight: 300;
+    padding: 2em 0 0 0 ;
+
+}
+
+p {
+    font-family: var(--font-default);
+    font-size: var(--font-size-xs);
+    cursor: pointer;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+/* Buttons */
+.save-button {
+    position: absolute;
+    top: 1em;
+    right: 1.2em;
+    &:hover{
+            transform: translateY(-6px);
+        }
+}
+
+button {
+    all: unset; /*Verwijdert de standaard styling van de button*/
+    cursor: pointer;
+}
+
+
+/* linkjes */
+
+a {
+    font-family: var(--font-default);
+    font-size: var(--font-size-xs);
+    text-decoration: none;
+    display: flex;
+    color: var(--accent-color-black);
+    flex-direction: column;
+    line-height: 2em;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+/* lists */
+li {
+    list-style: none;
+}
+
+
