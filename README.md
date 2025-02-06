@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/bd040f68-c6f1-44e4-8c95-a552b969fc45
 ### Ontwerpkeuzes
 
 #### Interactie Chat
-Voor het bouwen van de chat interactie heb ik gebruik gemaakt van de Exaggeration Disney principe. Zodra je op je chatknop klikt moet je aandacht daarop worden gevestigd. Dit heb ik proberen te bewerkstelligen door de chat te laten openen met een translation vanuit beneden. Na het openen van de chat komt er een sluit button tevoorschijn waardoor de gebruiker de chat kan sluiten (feedforward). De placeholder 'i'm looking for' is ook een vorm van feedforward. De gebruiker weet dan dat hij daar zijn cadeau input moet typen.
+Voor het bouwen van de chat interactie heb ik gebruik gemaakt van de [Exaggeration Disney](https://medium.com/@ruthiran_b/disneys-motion-principles-in-designing-interface-animations-9ac7707a2b43) principe. Zodra je op je chatknop klikt moet je aandacht daarop worden gevestigd. Dit heb ik proberen te bewerkstelligen door de chat te laten openen met een translation vanuit beneden. Na het openen van de chat komt er een sluit button tevoorschijn waardoor de gebruiker de chat kan sluiten (feedforward). De placeholder 'i'm looking for' is ook een vorm van feedforward. De gebruiker weet dan dat hij daar zijn cadeau input moet typen.
 
 
 https://github.com/user-attachments/assets/ab0409b9-07fd-420e-9379-f96eec4fc024
@@ -43,7 +43,7 @@ Het ontwerp heb ik veranderd door feedforward toe te passen:
 
 
 #### Interactie pop-up
-Uit de user test kwam bij alle gebruikers een handeling naar voren: de tester probeerde een cadeau op te slaan maar er gebeurde niks. Dit heb ik opgelost door een pop up te laten verschijnen bij het klikken op de opslaan-button. Bij een hover beweegt de opslaan-button een aantal pixel omhoog op de y-as (feedback). De gebruiker krijgt daarna een pop up te zien dat de cadeau is opgeslagen in zijn wishlist (feedback). De popup verdwijnt na 3 seconden.
+Uit de user test kwam bij alle gebruikers een handeling naar voren: de tester probeerde een cadeau op te slaan maar er gebeurde niks. Dit heb ik opgelost door een pop up te laten verschijnen bij het klikken op de opslaan-button. Bij een hover beweegt de opslaan-button een aantal pixel omhoog op de y-as (feedback). De disney principe die hier is toegepast is [Anticipation](https://medium.com/@ruthiran_b/disneys-motion-principles-in-designing-interface-animations-9ac7707a2b43). Anticipation informeert de kijkers over wat er gaat gebeuren. De gebruiker krijgt daarna een pop up te zien dat de cadeau is opgeslagen in zijn wishlist (feedback). De popup verdwijnt na 3 seconden.
 
 https://github.com/user-attachments/assets/6288d26d-bb5c-4027-b114-90dd767bbb77
 
